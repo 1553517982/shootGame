@@ -1,0 +1,20 @@
+{
+    "type": "Selector",
+    "children": [
+        {
+            "type": "Sequences",
+            "children": [
+                {
+                    "type": "Condition",
+                    "name": "ConditionAttachEntityType",
+                    "param": "1"
+                },
+                {
+                    "type": "Action",
+                    "name": "ActionDie",
+                    "param": ""
+                }
+            ]
+        }
+    ]
+}

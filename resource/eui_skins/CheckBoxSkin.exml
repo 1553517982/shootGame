@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skins.CheckBoxSkin" states="up,down,upAndSelected,downAndSelected,disabledAndSelected" currentState="up" xmlns:e="http://ns.egret.com/eui" width.up="74" height.up="30" width="74" height="30">
+    <e:Group width="100%" height="100%">
+        <e:layout>
+            <e:HorizontalLayout verticalAlign="middle"/>
+        </e:layout>
+        <e:Image fillMode="scale" alpha="1" alpha.down="0.7"                                                                     width.upAndSelected="34" height.upAndSelected="30" width.down="34" height.down="30" width.up="34" height.up="30" width.downAndSelected="34" width="34" height="30" source.up="gongyonghetu_json.img_dagoukuang_01" source.down="gongyonghetu_json.img_dagoukuang_02" source.upAndSelected="gongyonghetu_json.img_dagoukuang_02" source.downAndSelected="gongyonghetu_json.img_dagoukuang_02" height.downAndSelected="30" source=""/>
+        <e:Label id="labelDisplay" size="20"                  textAlign="center" verticalAlign="middle"                  fontFamily="Microsoft YaHei" width.upAndSelected="40" height.upAndSelected="20" width.downAndSelected="40" height.downAndSelected="20" width.down="40" height.down="20" width.up="40" height.up="20" width="40" height="20" fontFamily.up="Microsoft YaHei" textColor.up="0x958767" textColor.down="0xf3dda7" textColor="0x958767" text="幻形"/>
+    </e:Group>
+</e:Skin>

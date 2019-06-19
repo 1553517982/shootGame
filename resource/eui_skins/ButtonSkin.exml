@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<e:Skin class="skins.ButtonSkin" states="up,down,disabled" minHeight="50" minWidth="100"
+        xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+    <e:Label id="labelDisplay" top="10" bottom="10" left="26" right="26" size="22" verticalAlign="middle" textAlign="center"
+             text="按 钮" fontFamily="Microsoft YaHei" size.up="22"
+             anchorOffsetX.disabled="0" left.disabled="8" right.disabled="7" top.disabled="8" bottom.disabled="10"
+             anchorOffsetY.disabled="0"  textColor="0xf9e5c4" textColor.up="0xf9e5c4" textColor.disabled="0x929292" fontFamily.disabled="Microsoft YaHei"/>
+</e:Skin>

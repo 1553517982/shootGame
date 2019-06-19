@@ -1,0 +1,64 @@
+{
+    "type": "Selector",
+    "children": [
+        {
+            "type": "Sequences",
+            "children": [
+                {
+                    "type": "Condition",
+                    "name": "ConditionWithoutEntityType",
+                    "param": 1
+                },
+                {
+                    "type": "Action",
+                    "name": "ActionMoveRandom"
+                }
+            ]
+        },
+        {
+            "type": "Sequences",
+            "children": [
+                {
+                    "type": "Condition",
+                    "name": "ConditionWithoutTarget",
+                    "param": ""
+                },
+                {
+                    "type": "Action",
+                    "name": "ActionSearch",
+                    "param": 1
+                }
+            ]
+        },
+        {
+            "type": "Sequences",
+            "children": [
+                {
+                    "type": "Condition",
+                    "name": "ConditionTargetDistance",
+                    "param": "more,1"
+                },
+                {
+                    "type": "Action",
+                    "name": "ActionCatch",
+                    "param": ""
+                }
+            ]
+        },
+        {
+            "type": "Sequences",
+            "children": [
+                {
+                    "type": "Condition",
+                    "name": "ConditionTargetDistance",
+                    "param": "less,1"
+                },
+                {
+                    "type": "Action",
+                    "name": "ActionAttack",
+                    "param": ""
+                }
+            ]
+        }
+    ]
+}

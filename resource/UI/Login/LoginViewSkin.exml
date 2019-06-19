@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LoginViewSkin" width="640" height="1030" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="img_bg" anchorOffsetY="0" anchorOffsetX="0" scaleX="1" scaleY="1" width="640" x="0" y="0" height="1030" source=""/>
+	<e:Group id="group_viewcontent" width="640" height="1030" y="0" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Group id="group_enter" width="640" height="1030" x="0" y="0">
+			<e:EditableText id="editext_account" width="340" height="64" x="212" y="675.85" anchorOffsetY="0" anchorOffsetX="0" verticalAlign="middle" textAlign="left" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" size="22" multiline="false" prompt="请输入用户名" promptColor="0xffffff" text="" textColor="0xaa9768"/>
+			<e:EditableText id="editext_password" width="336" height="64" text="**********" x="212" y="759.98" anchorOffsetX="0" anchorOffsetY="0" textAlign="left" verticalAlign="middle" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" displayAsPassword="true" size="22" textColor="0xaa9768"/>
+		</e:Group>
+		<e:Button id="Btn_login" label="开始游戏" y="832.11" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" x="201" width="234" height="72" skinName="skins.ButtonSkin">
+		</e:Button>
+	</e:Group>
+</e:Skin>

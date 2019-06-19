@@ -1,0 +1,45 @@
+{
+    "type": "Selector",
+    "children": [
+        {
+            "type": "Sequences",
+            "children": [
+                {
+                    "type": "Condition",
+                    "name": "ConditionTest",
+                    "param": "ConditionTest1"
+                },
+                {
+                    "type": "Action",
+                    "name": "ActionTest",
+                    "param": "ActionTest1"
+                }
+            ]
+        },
+        {
+            "type": "Sequences",
+            "children": [
+                {
+                    "type": "ConditionSelector",
+                    "children": [
+                        {
+                            "type": "Condition",
+                            "name": "ConditionTest",
+                            "param": "ConditionTest2"
+                        },
+                        {
+                            "type": "Condition",
+                            "name": "ConditionTest",
+                            "param": "ConditionTest21"
+                        }
+                    ]
+                },
+                {
+                    "type": "Action",
+                    "name": "ActionMoveRandom",
+                    "param": "ActionMoveRandom"
+                }
+            ]
+        }
+    ]
+}

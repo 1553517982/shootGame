@@ -1,0 +1,61 @@
+{
+    "0": {
+        "name": "hero",
+        "type": 1,
+        "speed": 120,
+        "bodyId": 1001,
+        "level": 10,
+        "hp": 100,
+        "maxhp": 100,
+        "atk": 0,
+        "dir": 2
+    },
+    "1": {
+        "name": "monster",
+        "ai": "monster_ai_json",
+        "type": 2,
+        "speed": 80,
+        "bodyId": 1001,
+        "level": 10,
+        "hp": 100,
+        "maxhp": 100,
+        "atk": 1,
+        "dir": 2
+    },
+    "2": {
+        "name": "monster2",
+        "ai": "monster_ai_json",
+        "type": 2,
+        "speed": 120,
+        "bodyId": 1001,
+        "level": 10,
+        "hp": 100,
+        "maxhp": 100,
+        "atk": 1,
+        "dir": 2
+    },
+    "3": {
+        "name": "food",
+        "ai": "food_ai_json",
+        "type": 3,
+        "speed": 0,
+        "bodyId": 1001,
+        "level": 10,
+        "hp": 100,
+        "maxhp": 100,
+        "atk": 50,
+        "dir": 2
+    },
+    "4": {
+        "name": "boom",
+        "ai": "boom_ai_json",
+        "type": 3,
+        "speed": 0,
+        "bodyId": 1001,
+        "level": 10,
+        "hp": 100,
+        "maxhp": 100,
+        "atk": 50,
+        "dir": 2
+    }
+}

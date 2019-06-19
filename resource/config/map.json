@@ -1,0 +1,14 @@
+{
+    "1": {
+        "width": 960,
+        "height": 640,
+        "cellSize": 32,
+        "seed": 1,
+        "metal": {
+            "blockPercent": 0,
+            "maskPercent": 0.5,
+            "ground": 0,
+            "decorators": 1
+        }
+    }
+}
